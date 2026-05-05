@@ -1,0 +1,51 @@
+.container {
+  width: 600px;
+  /* height: 400px; */
+  height: 150px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  display: flex;
+
+  /* flex direction */
+  flex-direction: row;
+
+  /* flex wrap */
+  flex-wrap: wrap;
+
+  /* justify content */
+  justify-content: center;
+
+  /* align items */
+  /* align-items: baseline; */
+
+  /* align content */
+  /* align-content: space-around; */
+}
+
+.container div {
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: aqua;
+  /* text-align: center; */
+  /* line-height: 100px; */
+  margin: 8px;
+  flex-grow: 1;
+}
+
+/* .container .tiga {
+  font-size: 60px;
+} */
+
+.container .satu {
+  order: 3;
+}
+
+.container .dua {
+  /* order: 1; */
+  flex-grow: 2;
+}
+
+.container .tiga {
+  order: 2;
+}
