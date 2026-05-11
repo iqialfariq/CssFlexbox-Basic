@@ -45,7 +45,14 @@ value flex-wrap ada 3 yaitu:
 3) wrap-reverse
     • Sama seperti wrap, tetapi arah baris/kolom baru dibalik. 
     • Misalnya baris baru muncul di atas, bukan di bawah.
-
+   
+  Contoh:
+  ```css
+      .wrap {
+        flex-wrap: wrap;
+      }
+  ```
+   
 ### 🌐 Justify Content 
 <p align="justify">
 digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu utama). 
@@ -64,3 +71,10 @@ value flex-wrap ada 3 yaitu:
     • Item diberi jarak merata dengan ruang di kiri dan kanan setiap item.
 6) space-evenly 
     • Semua item memiliki jarak yang sama, termasuk di sisi luar.    
+
+  Contoh:
+  ```css
+      .center {
+        justify-content: center;     /* item rata tengah */
+      }
+  ```
