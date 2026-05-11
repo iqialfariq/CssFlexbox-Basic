@@ -31,6 +31,8 @@ value flex-direction ada 4 yaitu:
       }
   ```
 
+---
+
 ### 🌐 Flex Wrap
 <p align="justify">
 digunakan untuk menentukan apakah item flex di dalam container boleh membungkus ke baris/kolom baru ketika ruang tidak cukup. Secara default, flex items akan mencoba tetap berada dalam satu baris, meskipun ukurannya jadi sangat kecil.
@@ -52,7 +54,9 @@ value flex-wrap ada 3 yaitu:
         flex-wrap: wrap;
       }
   ```
-   
+
+---
+
 ### 🌐 Justify Content 
 <p align="justify">
 digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu utama). 
@@ -78,3 +82,36 @@ value flex-wrap ada 3 yaitu:
         justify-content: center;     /* item rata tengah */
       }
   ```
+
+---
+
+### 🌐 Align Content  
+<p align="justify">
+digunakan untuk mengatur distribusi ruang antar baris di sepanjang cross axis (sumbu tegak lurus main axis). Berbeda dengan align-items 
+yang mengatur posisi item dalam satu baris, align content bekerja hanya jika ada lebih dari satu baris (misalnya ketika flex-wrap: wrap digunakan).  
+</p>
+
+value align-content ada 7 yaitu: 
+1) stretch (default) 
+    • Baris flex akan meregang untuk memenuhi ruang container 
+2) flex-start 
+    • Semua baris ditempatkan di awal cross axis. 
+3) flex-end 
+    • Semua baris ditempatkan di akhir cross axis. 
+4) center 
+    • Semua baris ditempatkan di tengah cross axis. 
+5) space-between 
+    • Baris pertama di awal, baris terakhir di akhir, sisanya merata di antaranya.
+6) space-around
+    • Baris diberi jarak merata dengan ruang di atas dan bawah setiap baris.
+7) space-evenly
+    • Semua baris memiliki jarak yang sama, termasuk di sisi luar.
+
+  Contoh:
+  ```css
+      .flex-start {
+        align-content: flex-start;
+      }
+  ```
+
+---
