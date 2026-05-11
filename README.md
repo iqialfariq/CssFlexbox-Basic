@@ -1,7 +1,10 @@
 # 🧠 Penjelasan CSS Flexbox
 <p align="justify">
-Flexbox (Flexible Box Layout) adalah metode layout CSS satu dimensi yang digunakan untuk mengatur elemen dalam baris (row) atau kolom (column) secara fleksibel dan responsif. 
-Dengan flexbox, elemen bisa otomatis melebar, mengecil, atau menyesuaikan ruang tanpa perlu menggunakan float atau positioning manual. </p>
+Flexbox (Flexible Box Layout) adalah metode layout CSS satu dimensi yang digunakan untuk mengatur elemen dalam baris (row) atau kolom (column) secara
+fleksibel dan responsif. Dengan flexbox, elemen bisa otomatis melebar, mengecil, atau menyesuaikan ruang tanpa perlu menggunakan float atau positioning manual.
+</p>
+
+---
 
   Margin memiliki 4 sisi:
   1. Mengatur elemen secara horizontal atau vertikal. 
