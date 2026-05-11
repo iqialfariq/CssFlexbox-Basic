@@ -20,10 +20,10 @@ digunakan untuk menentukan arah utama (main axis) dari flex container. Dengan ka
 </p>
 
 value flex-direction ada 4 yaitu:
-1) row (default) - Item ditata dari kiri ke kanan (horizontal).
-2) row-reverse - Item ditata dari kanan ke kiri. 
-3) column - Item ditata dari atas ke bawah (vertikal). 
-4) column-reverse - Item ditata dari bawah ke atas. 
+1) row (default) → Item ditata dari kiri ke kanan (horizontal).
+2) row-reverse → Item ditata dari kanan ke kiri. 
+3) column → Item ditata dari atas ke bawah (vertikal). 
+4) column-reverse → Item ditata dari bawah ke atas. 
 
   Contoh:
   ```css
@@ -40,14 +40,9 @@ digunakan untuk menentukan apakah item flex di dalam container boleh membungkus 
 </p>
 
 value flex-wrap ada 3 yaitu:
-1) nowrap (default) 
-    • Semua item tetap dalam satu baris/kolom. 
-    • Jika ruang tidak cukup, item akan mengecil. 
-2) wrap 
-    • Item akan otomatis pindah ke baris/kolom baru jika ruang tidak cukup. 
-3) wrap-reverse
-    • Sama seperti wrap, tetapi arah baris/kolom baru dibalik. 
-    • Misalnya baris baru muncul di atas, bukan di bawah.
+1) nowrap (default) → Semua item tetap dalam satu baris/kolom. Jika ruang tidak cukup, item akan mengecil. 
+2) wrap → Item akan otomatis pindah ke baris/kolom baru jika ruang tidak cukup. 
+3) wrap-reverse → Sama seperti wrap, tetapi arah baris/kolom baru dibalik. Misalnya baris baru muncul di atas, bukan di bawah.
    
   Contoh:
   ```css
@@ -64,18 +59,12 @@ digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu ut
 </p>
 
 value flex-wrap ada 3 yaitu:
-1) flex-start (default) 
-    • Item ditempatkan di awal main axis. 
-2) lex-end 
-    • Item ditempatkan di akhir main axis.
-3) center 
-    • Item ditempatkan di tengah main axis. 
-4) space-between 
-    • Item diratakan: item pertama di awal, item terakhir di akhir, sisanya merata di antaranya. 
-5) space-around 
-    • Item diberi jarak merata dengan ruang di kiri dan kanan setiap item.
-6) space-evenly 
-    • Semua item memiliki jarak yang sama, termasuk di sisi luar.    
+1) flex-start (default) → Item ditempatkan di awal main axis. 
+2) lex-end → Item ditempatkan di akhir main axis.
+3) center → Item ditempatkan di tengah main axis. 
+4) space-between → Item diratakan: item pertama di awal, item terakhir di akhir, sisanya merata di antaranya. 
+5) space-around → Item diberi jarak merata dengan ruang di kiri dan kanan setiap item.
+6) space-evenly → Semua item memiliki jarak yang sama, termasuk di sisi luar.    
 
   Contoh:
   ```css
@@ -93,20 +82,13 @@ yang mengatur posisi item dalam satu baris, align content bekerja hanya jika ada
 </p>
 
 value align-content ada 7 yaitu: 
-1) stretch (default) 
-    • Baris flex akan meregang untuk memenuhi ruang container 
-2) flex-start 
-    • Semua baris ditempatkan di awal cross axis. 
-3) flex-end 
-    • Semua baris ditempatkan di akhir cross axis. 
-4) center 
-    • Semua baris ditempatkan di tengah cross axis. 
-5) space-between 
-    • Baris pertama di awal, baris terakhir di akhir, sisanya merata di antaranya.
-6) space-around
-    • Baris diberi jarak merata dengan ruang di atas dan bawah setiap baris.
-7) space-evenly
-    • Semua baris memiliki jarak yang sama, termasuk di sisi luar.
+1) stretch (default) → Baris flex akan meregang untuk memenuhi ruang container 
+2) flex-start → Semua baris ditempatkan di awal cross axis. 
+3) flex-end → Semua baris ditempatkan di akhir cross axis. 
+4) center → Semua baris ditempatkan di tengah cross axis. 
+5) space-between → Baris pertama di awal, baris terakhir di akhir, sisanya merata di antaranya.
+6) space-around → Baris diberi jarak merata dengan ruang di atas dan bawah setiap baris.
+7) space-evenly → Semua baris memiliki jarak yang sama, termasuk di sisi luar.
 
   Contoh:
   ```css
@@ -123,16 +105,11 @@ digunakan untuk mengatur posisi item di sepanjang cross axis (sumbu tegak lurus 
 </p>
 
 value align-items ada 5 yaitu:
-1) stretch (default) 
-    • Item akan meregang memenuhi container di cross axis. 
-2) flex-start 
-    • Item ditempatkan di awal cross axis. 
-3) flex-end 
-    • Item ditempatkan di akhir cross axis. 
-4) center 
-    • Item ditempatkan di tengah cross axis. 
-5) baseline 
-    • Item disejajarkan berdasarkan baseline teks.
+1) stretch (default) → Item akan meregang memenuhi container di cross axis. 
+2) flex-start → Item ditempatkan di awal cross axis. 
+3) flex-end → Item ditempatkan di akhir cross axis. 
+4) center → Item ditempatkan di tengah cross axis. 
+5) baseline → Item disejajarkan berdasarkan baseline teks.
 
   Contoh:
   ```css
