@@ -116,3 +116,71 @@ value align-content ada 7 yaitu:
   ```
 
 ---
+
+### 🌐 Align Items 
+<p align="justify">
+digunakan untuk mengatur posisi item di sepanjang cross axis (sumbu tegak lurus main axis).  
+</p>
+
+value align-items ada 5 yaitu:
+1) stretch (default) 
+    • Item akan meregang memenuhi container di cross axis. 
+2) flex-start 
+    • Item ditempatkan di awal cross axis. 
+3) flex-end 
+    • Item ditempatkan di akhir cross axis. 
+4) center 
+    • Item ditempatkan di tengah cross axis. 
+5) baseline 
+    • Item disejajarkan berdasarkan baseline teks.
+
+  Contoh:
+  ```css
+      .flex-start {
+        align-items: flex-start;
+      }
+  ```
+
+---
+
+### 🌐 Order
+<p align="justify">
+order adalah property CSS yang dipakai di flex item (anak dari flex container). Fungsinya buat ngatur urutan tampilan item di dalam container, tanpa harus ubah urutan HTML.
+</p>
+
+  Contoh:
+  ```css
+      .ordered{
+        order: 2;
+      }
+  ```
+
+---
+
+### 🌐 Flex Grow 
+<p align="justify">
+Property CSS yang dipakai di flex item (anak dari flex container). Fungsinya menentukan seberapa besar item bisa melebar untuk mengisi ruang kosong di
+dalam container.
+</p>
+
+  Contoh:
+  ```css
+      .FlexGrow {
+        flex-grow: 2;
+      }
+  ```
+
+---
+
+### 🌐 Align Self
+<p align="justify">
+Property CSS yang dipakai di flex item (anak dari flex container). Fungsinya: ngatur posisi vertikal item tertentu di dalam container, override aturan
+align-items yang ada di parent.
+</p>
+
+  Contoh:
+  ```css
+      .AlignSelf {
+        align-self: flex-start;
+      }
+  ```
