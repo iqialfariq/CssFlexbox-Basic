@@ -13,3 +13,13 @@ Dengan flexbox, elemen bisa otomatis melebar, mengecil, atau menyesuaikan ruang 
 
 ## 📌 Property dan Value CSS Flexbox
 
+### 🌐 Flex Direction 
+<p align="justify">
+digunakan untuk menentukan arah utama (main axis) dari flex container. Dengan kata lain, ia mengatur apakah item flex ditata secara horizontal (baris) atau vertikal (kolom).
+</p>
+
+value flex-direction ada 4 yaitu:
+1) row (default) - Item ditata dari kiri ke kanan (horizontal).
+2) row-reverse - Item ditata dari kanan ke kiri. 
+3) column - Item ditata dari atas ke bawah (vertikal). 
+4) column-reverse - Item ditata dari bawah ke atas. 
