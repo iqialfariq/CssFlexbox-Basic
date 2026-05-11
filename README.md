@@ -4,9 +4,7 @@ Flexbox (Flexible Box Layout) adalah metode layout CSS satu dimensi yang digunak
 fleksibel dan responsif. Dengan flexbox, elemen bisa otomatis melebar, mengecil, atau menyesuaikan ruang tanpa perlu menggunakan float atau positioning manual.
 </p>
 
----
-
-  Margin memiliki 4 sisi:
+  Sifat utama flexbox:
   1. Mengatur elemen secara horizontal atau vertikal. 
   2. Membagi ruang kosong secara proporsional. 
   3. Memudahkan alignment (posisi) dan distribusi ruang. 
