@@ -58,7 +58,7 @@ value flex-wrap ada 3 yaitu:
 digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu utama). 
 </p>
 
-value flex-wrap ada 3 yaitu:
+value justify-content ada 3 yaitu:
 1) flex-start (default) → Item ditempatkan di awal main axis. 
 2) lex-end → Item ditempatkan di akhir main axis.
 3) center → Item ditempatkan di tengah main axis. 
