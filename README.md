@@ -14,7 +14,7 @@ fleksibel dan responsif. Dengan flexbox, elemen bisa otomatis melebar, mengecil,
 
 ## 📌 Property dan Value CSS Flexbox
 
-### 🌐 Flex Direction 
+### 🔀 Flex Direction 
 <p align="justify">
 digunakan untuk menentukan arah utama (main axis) dari flex container. Dengan kata lain, ia mengatur apakah item flex ditata secara horizontal (baris) atau vertikal (kolom).
 </p>
@@ -34,7 +34,7 @@ value flex-direction ada 4 yaitu:
 
 ---
 
-### 🌐 Flex Wrap
+### 📦 Flex Wrap
 <p align="justify">
 digunakan untuk menentukan apakah item flex di dalam container boleh membungkus ke baris/kolom baru ketika ruang tidak cukup. Secara default, flex items akan mencoba tetap berada dalam satu baris, meskipun ukurannya jadi sangat kecil.
 </p>
@@ -58,7 +58,7 @@ value flex-wrap ada 3 yaitu:
 
 ---
 
-### 🌐 Justify Content 
+### 📏 Justify Content 
 <p align="justify">
 digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu utama). 
 </p>
@@ -86,7 +86,7 @@ value flex-wrap ada 3 yaitu:
 
 ---
 
-### 🌐 Align Content  
+### 🗂️ Align Content  
 <p align="justify">
 digunakan untuk mengatur distribusi ruang antar baris di sepanjang cross axis (sumbu tegak lurus main axis). Berbeda dengan align-items 
 yang mengatur posisi item dalam satu baris, align content bekerja hanya jika ada lebih dari satu baris (misalnya ketika flex-wrap: wrap digunakan).  
@@ -117,7 +117,7 @@ value align-content ada 7 yaitu:
 
 ---
 
-### 🌐 Align Items 
+### 🎯 Align Items 
 <p align="justify">
 digunakan untuk mengatur posisi item di sepanjang cross axis (sumbu tegak lurus main axis).  
 </p>
@@ -143,7 +143,7 @@ value align-items ada 5 yaitu:
 
 ---
 
-### 🌐 Order
+### 🔢 Order
 <p align="justify">
 order adalah property CSS yang dipakai di flex item (anak dari flex container). Fungsinya buat ngatur urutan tampilan item di dalam container, tanpa harus ubah urutan HTML.
 </p>
@@ -157,7 +157,7 @@ order adalah property CSS yang dipakai di flex item (anak dari flex container). 
 
 ---
 
-### 🌐 Flex Grow 
+### 📈 Flex Grow 
 <p align="justify">
 Property CSS yang dipakai di flex item (anak dari flex container). Fungsinya menentukan seberapa besar item bisa melebar untuk mengisi ruang kosong di
 dalam container.
@@ -172,7 +172,7 @@ dalam container.
 
 ---
 
-### 🌐 Align Self
+### 🎛️ Align Self
 <p align="justify">
 Property CSS yang dipakai di flex item (anak dari flex container). Fungsinya: ngatur posisi vertikal item tertentu di dalam container, override aturan
 align-items yang ada di parent.
