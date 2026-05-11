@@ -23,3 +23,10 @@ value flex-direction ada 4 yaitu:
 2) row-reverse - Item ditata dari kanan ke kiri. 
 3) column - Item ditata dari atas ke bawah (vertikal). 
 4) column-reverse - Item ditata dari bawah ke atas. 
+
+  Contoh:
+  ```css
+      .row {
+        flex-direction: row; /* item berjejer ke samping */
+      }
+  ```
