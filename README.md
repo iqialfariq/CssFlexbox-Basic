@@ -16,7 +16,7 @@ fleksibel dan responsif. Dengan flexbox, elemen bisa otomatis melebar, mengecil,
 
 ### 🔀 Flex Direction 
 <p align="justify">
-digunakan untuk menentukan arah utama (main axis) dari flex container. Dengan kata lain, ia mengatur apakah item flex ditata secara horizontal (baris) atau vertikal (kolom).
+Digunakan untuk menentukan arah utama (main axis) dari flex container. Dengan kata lain, ia mengatur apakah item flex ditata secara horizontal (baris) atau vertikal (kolom).
 </p>
 
 value flex-direction ada 4 yaitu:
@@ -36,7 +36,7 @@ value flex-direction ada 4 yaitu:
 
 ### 📦 Flex Wrap
 <p align="justify">
-digunakan untuk menentukan apakah item flex di dalam container boleh membungkus ke baris/kolom baru ketika ruang tidak cukup. Secara default, flex items akan mencoba tetap berada dalam satu baris, meskipun ukurannya jadi sangat kecil.
+Digunakan untuk menentukan apakah item flex di dalam container boleh membungkus ke baris/kolom baru ketika ruang tidak cukup. Secara default, flex items akan mencoba tetap berada dalam satu baris, meskipun ukurannya jadi sangat kecil.
 </p>
 
 value flex-wrap ada 3 yaitu:
@@ -55,7 +55,7 @@ value flex-wrap ada 3 yaitu:
 
 ### 📏 Justify Content 
 <p align="justify">
-digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu utama). 
+Digunakan untuk mengatur posisi atau jarak item di sepanjang main axis (sumbu utama). 
 </p>
 
 value justify-content ada 3 yaitu:
@@ -77,7 +77,7 @@ value justify-content ada 3 yaitu:
 
 ### 🗂️ Align Content  
 <p align="justify">
-digunakan untuk mengatur distribusi ruang antar baris di sepanjang cross axis (sumbu tegak lurus main axis). Berbeda dengan align-items 
+Digunakan untuk mengatur distribusi ruang antar baris di sepanjang cross axis (sumbu tegak lurus main axis). Berbeda dengan align-items 
 yang mengatur posisi item dalam satu baris, align content bekerja hanya jika ada lebih dari satu baris (misalnya ketika flex-wrap: wrap digunakan).  
 </p>
 
@@ -101,7 +101,7 @@ value align-content ada 7 yaitu:
 
 ### 🎯 Align Items 
 <p align="justify">
-digunakan untuk mengatur posisi item di sepanjang cross axis (sumbu tegak lurus main axis).  
+Digunakan untuk mengatur posisi item di sepanjang cross axis (sumbu tegak lurus main axis).  
 </p>
 
 value align-items ada 5 yaitu:
@@ -122,7 +122,7 @@ value align-items ada 5 yaitu:
 
 ### 🔢 Order
 <p align="justify">
-order adalah property CSS yang dipakai di flex item (anak dari flex container). Fungsinya buat ngatur urutan tampilan item di dalam container, tanpa harus ubah urutan HTML.
+Order adalah property CSS yang dipakai di flex item (anak dari flex container). Fungsinya buat ngatur urutan tampilan item di dalam container, tanpa harus ubah urutan HTML.
 </p>
 
   Contoh:
